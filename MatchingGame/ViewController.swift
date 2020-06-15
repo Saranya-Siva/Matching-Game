@@ -237,4 +237,3 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
     
 }//End of view controller class
-
