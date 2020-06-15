@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		EEE8110A249834B5004B2431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81109249834B5004B2431 /* AppDelegate.swift */; };
 		EEE8110C249834B5004B2431 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8110B249834B5004B2431 /* SceneDelegate.swift */; };
-		EEE8110E249834B5004B2431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8110D249834B5004B2431 /* ViewController.swift */; };
-		EEE81111249834B5004B2431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE8110F249834B5004B2431 /* Main.storyboard */; };
 		EEE81113249834C8004B2431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE81112249834C8004B2431 /* Assets.xcassets */; };
 		EEE81116249834C8004B2431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE81114249834C8004B2431 /* LaunchScreen.storyboard */; };
+		EEE8111F24983535004B2431 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE8111E24983535004B2431 /* AVFoundation.framework */; };
+		EEE8112524983546004B2431 /* dingcorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEE8112124983546004B2431 /* dingcorrect.wav */; };
+		EEE8112624983546004B2431 /* cardflip.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEE8112224983546004B2431 /* cardflip.wav */; };
+		EEE8112724983546004B2431 /* shuffle.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEE8112324983546004B2431 /* shuffle.wav */; };
+		EEE8112824983546004B2431 /* dingwrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEE8112424983546004B2431 /* dingwrong.wav */; };
+		EEE8112F24983576004B2431 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8112924983576004B2431 /* CardCollectionViewCell.swift */; };
+		EEE8113024983576004B2431 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8112A24983576004B2431 /* Card.swift */; };
+		EEE8113124983576004B2431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE8112B24983576004B2431 /* Main.storyboard */; };
+		EEE8113224983576004B2431 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8112C24983576004B2431 /* SoundManager.swift */; };
+		EEE8113324983576004B2431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8112D24983576004B2431 /* ViewController.swift */; };
+		EEE8113424983576004B2431 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8112E24983576004B2431 /* CardModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EEE81106249834B5004B2431 /* MatchingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE81109249834B5004B2431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEE8110B249834B5004B2431 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EEE8110D249834B5004B2431 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EEE81110249834B5004B2431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEE81112249834C8004B2431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEE81115249834C8004B2431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEE81117249834C8004B2431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE8111E24983535004B2431 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EEE8112124983546004B2431 /* dingcorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dingcorrect.wav; sourceTree = "<group>"; };
+		EEE8112224983546004B2431 /* cardflip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cardflip.wav; sourceTree = "<group>"; };
+		EEE8112324983546004B2431 /* shuffle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shuffle.wav; sourceTree = "<group>"; };
+		EEE8112424983546004B2431 /* dingwrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dingwrong.wav; sourceTree = "<group>"; };
+		EEE8112924983576004B2431 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		EEE8112A24983576004B2431 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		EEE8112B24983576004B2431 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EEE8112C24983576004B2431 /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		EEE8112D24983576004B2431 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../Match App/Match App/ViewController.swift"; sourceTree = "<group>"; };
+		EEE8112E24983576004B2431 /* CardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE8111F24983535004B2431 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,7 @@
 			children = (
 				EEE81108249834B5004B2431 /* MatchingGame */,
 				EEE81107249834B5004B2431 /* Products */,
+				EEE8111D24983535004B2431 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +76,39 @@
 		EEE81108249834B5004B2431 /* MatchingGame */ = {
 			isa = PBXGroup;
 			children = (
+				EEE8112024983546004B2431 /* Sounds */,
+				EEE8112A24983576004B2431 /* Card.swift */,
+				EEE8112924983576004B2431 /* CardCollectionViewCell.swift */,
+				EEE8112E24983576004B2431 /* CardModel.swift */,
+				EEE8112B24983576004B2431 /* Main.storyboard */,
+				EEE8112C24983576004B2431 /* SoundManager.swift */,
+				EEE8112D24983576004B2431 /* ViewController.swift */,
 				EEE81109249834B5004B2431 /* AppDelegate.swift */,
 				EEE8110B249834B5004B2431 /* SceneDelegate.swift */,
-				EEE8110D249834B5004B2431 /* ViewController.swift */,
-				EEE8110F249834B5004B2431 /* Main.storyboard */,
 				EEE81112249834C8004B2431 /* Assets.xcassets */,
 				EEE81114249834C8004B2431 /* LaunchScreen.storyboard */,
 				EEE81117249834C8004B2431 /* Info.plist */,
 			);
 			path = MatchingGame;
+			sourceTree = "<group>";
+		};
+		EEE8111D24983535004B2431 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEE8111E24983535004B2431 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEE8112024983546004B2431 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EEE8112124983546004B2431 /* dingcorrect.wav */,
+				EEE8112224983546004B2431 /* cardflip.wav */,
+				EEE8112324983546004B2431 /* shuffle.wav */,
+				EEE8112424983546004B2431 /* dingwrong.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +169,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE8112724983546004B2431 /* shuffle.wav in Resources */,
+				EEE8112824983546004B2431 /* dingwrong.wav in Resources */,
 				EEE81116249834C8004B2431 /* LaunchScreen.storyboard in Resources */,
+				EEE8113124983576004B2431 /* Main.storyboard in Resources */,
 				EEE81113249834C8004B2431 /* Assets.xcassets in Resources */,
-				EEE81111249834B5004B2431 /* Main.storyboard in Resources */,
+				EEE8112524983546004B2431 /* dingcorrect.wav in Resources */,
+				EEE8112624983546004B2431 /* cardflip.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +186,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEE8110E249834B5004B2431 /* ViewController.swift in Sources */,
+				EEE8112F24983576004B2431 /* CardCollectionViewCell.swift in Sources */,
+				EEE8113024983576004B2431 /* Card.swift in Sources */,
 				EEE8110A249834B5004B2431 /* AppDelegate.swift in Sources */,
+				EEE8113324983576004B2431 /* ViewController.swift in Sources */,
+				EEE8113424983576004B2431 /* CardModel.swift in Sources */,
 				EEE8110C249834B5004B2431 /* SceneDelegate.swift in Sources */,
+				EEE8113224983576004B2431 /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EEE8110F249834B5004B2431 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEE81110249834B5004B2431 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EEE81114249834C8004B2431 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
